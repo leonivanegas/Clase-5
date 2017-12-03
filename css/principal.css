@@ -1,0 +1,115 @@
+/*
+para resetear los estilos por defecto que da el navegador
+
+ */
+
+body {
+    font-family: 'Roboto';
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+a, a:visited a:hover {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.portada-principal {
+    height: 100vh;
+    background-image: url("../img/edificio-principal.jpg");
+}
+
+.logo {
+    padding: 10px;
+
+}
+
+.logo span {
+    color: #fff;
+}
+
+.menu-principal {
+    background-color: rgba(0, 0, 0, .3);
+    overflow: auto;
+    padding: 15px 15%;
+}
+
+.menu-principal .menu {
+
+}
+
+.menu-principal .menu li {
+    display: inline-block;
+
+}
+
+.menu-principal .menu li a {
+    padding: 5px 10px;
+}
+
+.izq {
+    float: left;
+}
+
+.der {
+
+    float: right
+}
+
+.texto-portada {
+    padding: 15px 15%;
+    margin: 120px 0;
+}
+
+.naranja {
+    color: #ED9B38;
+}
+
+.blanco {
+    color: #fff;
+}
+
+.texto-portada h1 span {
+    font-size: 75px;
+    font-family: 'Roboto-Ligth';
+}
+
+.texto-sombra {
+    text-shadow: 1px 1px 1px #000;
+}
+
+.letra-m {
+    font-size: 25px;
+}
+
+a.boton {
+    border: 1px solid;
+    padding: 10px;
+    text-shadow: none;
+    margin-top: 30px;
+}
+
+a.boton:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.inicio-descripciòn {
+    overflow: auto;
+    margin: -65px 15% 20px;
+    background-color: white;
+    min-height: 30px;
+    box-shadow: 0 1px 3px #e1e1e1;
+}
+
+.inicio-descripciòn article {
+    width: 22%;
+    display: inline-block;
+}
